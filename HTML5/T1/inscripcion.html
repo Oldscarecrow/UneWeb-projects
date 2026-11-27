@@ -29,14 +29,36 @@
 
       <tr>
         <td style="width: 400px; vertical-align: top;">
-          <img src="./Imagenes/imagen-index.jpg" alt="Imagen" style="width: 400px; height: 400px;">
+          <img src="./Imagenes/imagen-inscripcion.jpg" alt="Imagen" style="width: 400px; height: 400px;">
         </td>
 
         <td style="padding-top: 40px; padding-left: 40px; vertical-align: top;">
-          <p>
-            ¡Te damos la Bienvenidos al Club de Mascotas!<br>
-            Aqui podras aprender y compartir tu amor por nuestros compañeros de cuatro patas. Este es un espacio donde encontrarás personas con intereses comunes que entienden que sus mascotas son parte de la familia. Aquí compartimos informacion de actividades y eventos de interes, ademas de ofreser consejos, de como cuidar a nuestro amigos peludos, para poder disfrutarlos y crear momentos inolvidables juntos. ¡Únete a nuestra comunidad y celebremos todo el amor que nos dan!
-          </p>
+          <form action="" method="post">
+            <p><label for="nombre"> Nombres: <input type="text" id="nombre"></label></p>
+            <p><label for="apellido"> Apellidos: <input type="text" id="apellido"></label></p>
+            <p><label for="edad"> Edad: <input type="text" id="edad"></label></p>
+            <p><label for="correo"> Correo Electronico: <input type="text" id="correo"></label></p>
+
+            <p><label for="mascota">
+              Mascota:
+              <select id="tipocorreo">
+                <option value="conejo"> Conejo </option>
+                <option value="gato"> Gato </option>
+                <option value="iguana"> Iguana </option>
+                <option value="perico"> Perico </option>
+                <option value="pez"> Pez </option>
+                <option value="perro"> Perro </option>
+                <option value="serpiente"> Serpiente </option>
+                <option value="tortuga"> Tortuga </option>
+              </select>
+            </label></p>
+
+            <p><label for="nombre_mascota"> Nombre de tu mascota: <input type="text" id="nombre_mascota"></label></p>
+            <p><label for="edad_mascota"> Edad de tu mascota: <input type="text" id="edad_mascota"></label></p>
+            <p><label for="motivo">¿Porque decidiste unirte al club?<br> <textarea id="motivo"></textarea></label></p>
+
+            <button type="submit"> Enviar</button>
+          </form>
         </td>
       </tr>
 
