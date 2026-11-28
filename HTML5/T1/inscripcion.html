@@ -3,36 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
   <title>Proyecto</title>
 </head>
 <body>
-  <div style="width: 1000px; height: 180px; background-color: yellow; margin: 0 auto; display: flex; justify-content: center; align-items: center;">
+  <div class="banner">
     <img src="./Imagenes/Banner.png" alt="Cabecera" width="1000px" height="180px">
   </div>
 
-  <div style="width: 1000px; height: 50px; background-color: rgb(230,216,145); margin: 0 auto; display: flex; justify-content: center; align-items: center;">
-    <a href="./index.html" style="font-family: 'Ink Free'; font-size: 18px; color: black; margin: 0 10px;">Inicio</a>
-    <a href="./mision.html" style="font-family: 'Ink Free'; font-size: 18px; color: black; margin: 0 10px;">Misión y Visión</a>
-    <a href="./eventos.html" style="font-family: 'Ink Free'; font-size: 18px; color: black; margin: 0 10px;">Eventos</a>
-    <a href="./galeria.html" style="font-family: 'Ink Free'; font-size: 18px; color: black; margin: 0 10px;">Galería</a>
-    <a href="./inscripcion.html" style="font-family: 'Ink Free'; font-size: 18px; color: black; margin: 0 10px;">Inscríbeme</a>
+  <div class="nav">
+    <a href="./index.html" class="nav-link">Inicio</a>
+    <a href="./mision.html" class="nav-link">Misión y Visión</a>
+    <a href="./eventos.html" class="nav-link">Eventos</a>
+    <a href="./galeria.html" class="nav-link"class="nav-link">Galería</a>
+    <a href="./inscripcion.html" class="nav-link">Inscríbeme</a>
   </div>
 
-  <div style="width: 1000px; height: 550px; background-color: rgb(238,238,238); margin: 0 auto; display: flex; justify-content: center; align-items: center;">
-    <table style="width: 800px; height: 400px;">
+  <div class="content">
+    <table>
       
       <tr>
-        <td colspan="2" style="text-align: center;">
+        <td colspan="2" class="table-head">
           <h1>Inscríbete al Club</h1>
         </td>
       </tr>
 
       <tr>
-        <td style="width: 400px; vertical-align: top;">
-          <img src="./Imagenes/imagen-inscripcion.jpg" alt="Imagen" style="width: 400px; height: 400px;">
+        <td class="table-img-container">
+          <img src="./Imagenes/imagen-inscripcion.jpg" alt="Imagen" class="table-img">
         </td>
 
-        <td style="padding-top: 40px; padding-left: 40px; vertical-align: top;">
+        <td class="table-content-container"
           <form action="" method="post">
             <p><label for="nombre"> Nombres: <input type="text" id="nombre"></label></p>
             <p><label for="apellido"> Apellidos: <input type="text" id="apellido"></label></p>
@@ -65,8 +66,8 @@
     </table>
   </div>
 
-  <div style="width: 1000px; height: 70px; background-color: rgb(140,204,226); margin: 0 auto; display: flex; justify-content: center; align-items: center;">
-    <h3 style="text-align: center;">Pagina creada por: <a href="https://github.com/Oldscarecrow" target="_blank">Herbert Rujana</a></h3>
+  <div class="foot">
+    <h3>Pagina creada por: <a href="https://github.com/Oldscarecrow" target="_blank">Herbert Rujana</a></h3>
   </div>
 
   

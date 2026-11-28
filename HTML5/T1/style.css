@@ -1,0 +1,73 @@
+.banner {
+  width: 1000px; 
+  height: 180px; 
+  background-color: yellow; 
+  margin: 0 auto; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.nav {
+  width: 1000px; 
+  height: 50px; 
+  background-color: rgb(230,216,145); 
+  margin: 0 auto; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.nav-link {
+  font-family: 'Ink Free'; 
+  font-size: 18px; 
+  color: black; 
+  margin: 0 10px;
+}
+
+.content{
+  width: 1000px; 
+  height: 550px; 
+  background-color: rgb(238,238,238); 
+  margin: 0 auto; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+table {
+  width: 800px; 
+  height: 400px;
+}
+
+.table-head {
+  text-align: center;
+}
+
+.table-img-container{
+  width: 400px; 
+  vertical-align: top;
+}
+
+.table-img{
+  width: 400px; 
+  height: 340px;
+}
+
+.table-content-container{
+  padding-top: 40px; padding-left: 40px; vertical-align: top;
+}
+
+.foot{
+  width: 1000px; 
+  height: 70px; 
+  background-color: rgb(140,204,226); 
+  margin: 0 auto; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+h3 {
+  text-align: center;
+}
